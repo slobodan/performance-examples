@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LCP - Start</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        An example of a page with very simple layout and a large image.
+      </p>
+      <div class="mt-6 mb-6">
+        <img src="images/diogo-fagundes-66HHISywmQo-unsplash.jpg" width="1200" height="800" alt="" />
+        <p>Image by @diofagundes (Unsplash)</p>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <p>Historically, it's been a challenge for web developers to measure how quickly the main content of a web page loads and is visible to users.</p>
+
+          <p>Older metrics like load or DOMContentLoaded are not good because they don't necessarily correspond to what the user sees on their screen. And newer, user-centric performance metrics like First Contentful Paint (FCP) only capture the very beginning of the loading experience. If a page shows a splash screen or displays a loading indicator, this moment is not very relevant to the user.</p>
+        </div>
+        <div class="column">
+          <p>In the past we've recommended performance metrics like First Meaningful Paint (FMP) and Speed Index (SI) (both available in Lighthouse) to help capture more of the loading experience after the initial paint, but these metrics are complex, hard to explain, and often wrong—meaning they still do not identify when the main content of the page has loaded.</p>
+
+          <p>Sometimes simpler is better. Based on discussions in the W3C Web Performance Working Group and research done at Google, we've found that a more accurate way to measure when the main content of a page is loaded is to look at when the largest element was rendered.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preload" as="image" href="images/diogo-fagundes-66HHISywmQo-unsplash.jpg" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LCP - Start</title>
+    <style>.subtitle:not(:last-child),.title:not(:last-child){margin-bottom:1.5rem}body,h1,html,p{margin:0;padding:0}h1{font-size:100%;font-weight:400}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}img{height:auto;max-width:100%}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}section{display:block}body{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif}body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5}img{height:auto;max-width:100%}.container{flex-grow:1;margin:0 auto;position:relative;width:auto}@media screen and (min-width:1024px){.container{max-width:960px}}@media screen and (min-width:1216px){.container:not(.is-max-desktop){max-width:1152px}}@media screen and (min-width:1408px){.container:not(.is-max-desktop):not(.is-max-widescreen){max-width:1344px}}.subtitle,.title{word-break:break-word}.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125}.title:not(.is-spaced)+.subtitle{margin-top:-1.25rem}.subtitle{color:#4a4a4a;font-size:1.25rem;font-weight:400;line-height:1.25}.column{display:block;flex-basis:0;flex-grow:1;flex-shrink:1;padding:.75rem}.columns{margin-left:-.75rem;margin-right:-.75rem;margin-top:-.75rem}.columns:last-child{margin-bottom:-.75rem}@media screen and (min-width:769px),print{.columns:not(.is-desktop){display:flex}}.mt-6{margin-top:3rem!important}.mb-6{margin-bottom:3rem!important}.section{padding:3rem 1.5rem}</style>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        An example of a page with very simple layout and a large image.
+      </p>
+      <div class="mt-6 mb-6">
+        <img src="images/diogo-fagundes-66HHISywmQo-unsplash.jpg" width="1200" height="800" alt="" />
+        <p>Image by @diofagundes (Unsplash)</p>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <p>Historically, it's been a challenge for web developers to measure how quickly the main content of a web page loads and is visible to users.</p>
+
+          <p>Older metrics like load or DOMContentLoaded are not good because they don't necessarily correspond to what the user sees on their screen. And newer, user-centric performance metrics like First Contentful Paint (FCP) only capture the very beginning of the loading experience. If a page shows a splash screen or displays a loading indicator, this moment is not very relevant to the user.</p>
+        </div>
+        <div class="column">
+          <p>In the past we've recommended performance metrics like First Meaningful Paint (FMP) and Speed Index (SI) (both available in Lighthouse) to help capture more of the loading experience after the initial paint, but these metrics are complex, hard to explain, and often wrong—meaning they still do not identify when the main content of the page has loaded.</p>
+
+          <p>Sometimes simpler is better. Based on discussions in the W3C Web Performance Working Group and research done at Google, we've found that a more accurate way to measure when the main content of a page is loaded is to look at when the largest element was rendered.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
